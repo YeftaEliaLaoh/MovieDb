@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#40d2ff"
+            android:paddingStart="17dp"
+            android:paddingLeft="17dp"
+            android:paddingEnd="20dp"
+            android:paddingRight="20dp"
+            app:titleMargin="10dp"
+            app:titleTextColor="@android:color/white">
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_marginTop="-2sp"
+        android:background="#324C58"
+        android:orientation="horizontal"
+        android:scrollbarSize="4sp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scrollbarSize="4sp">
+
+            <ProgressBar
+                android:id="@+id/progressBar4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="60sp"
+                android:layout_marginLeft="60sp"
+                android:layout_marginTop="70sp"
+                android:background="#00FFFFFF"
+                android:scaleX="0.50"
+                android:scaleY="0.50"
+                android:textColor="#E6EAEE"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imageview2"
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_marginStart="0sp"
+                android:layout_marginLeft="0sp"
+                android:layout_marginEnd="0sp"
+                android:layout_marginRight="0sp"
+                android:scrollbarSize="4sp"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarSize="4sp">
+
+            <ImageView
+                android:id="@+id/imagefav"
+                android:layout_width="42sp"
+                android:layout_height="38sp"
+                android:layout_marginStart="150sp"
+                android:layout_marginLeft="150sp"
+                android:scrollbarSize="4sp"
+                android:src="@drawable/ic_favorite_border" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="67sp"
+                android:layout_marginStart="0sp"
+                android:layout_marginLeft="0sp"
+                android:layout_marginTop="25sp"
+                android:scrollbarSize="4sp"
+                android:text="@string/title"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_marginStart="0sp"
+                android:layout_marginLeft="0sp"
+                android:layout_marginTop="60sp"
+                android:scrollbarSize="4sp"
+                android:text=" loading ..."
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="30sp"
+                android:layout_marginStart="0sp"
+                android:layout_marginLeft="0sp"
+                android:layout_marginTop="80sp"
+                android:fontFamily="sans-serif-black"
+                android:scrollbarSize="4sp"
+                android:text="@string/description"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvoverview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0sp"
+                android:layout_marginLeft="0sp"
+                android:layout_marginTop="100sp"
+                android:layout_marginBottom="10sp"
+                android:scrollbarSize="4sp"
+                android:text=".                                                                                                                                    Loading ....                                      "
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
